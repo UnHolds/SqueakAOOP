@@ -1,8 +1,10 @@
 as yet unclassified
 initialize 
 	"Creates a mouse morph"
-	| form |
-	super initialize.
-	form := (Form fromFileNamed: 'mouse.png').
-	self image: form.
+	| img |
+   	super initialize.
+      img := ImageReadWriter formFromFileNamed: 'mouse.png'.
+      img := img scaledToSize: 50@50.
+      self image: img.
+
 	
