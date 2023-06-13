@@ -10,5 +10,5 @@
 	"name" : "CatAndMouseGameCat",
 	"pools" : [
 		 ],
-	"super" : "ImageMorph",
+	"super" : "CatAndMouseGameEntity",
 	"type" : "normal" }
