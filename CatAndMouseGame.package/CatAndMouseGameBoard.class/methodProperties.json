@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"draw" : "Ah 6/13/2023 19:23",
 		"getCat" : "Ah 6/13/2023 18:45",
 		"getMice" : "Ah 6/13/2023 18:45",
 		"getSize" : "Ah 6/13/2023 18:41",
