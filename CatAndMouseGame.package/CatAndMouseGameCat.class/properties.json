@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"speed" ],
 	"name" : "CatAndMouseGameCat",
 	"pools" : [
 		 ],
