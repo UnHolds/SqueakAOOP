@@ -2,5 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"handleKeystroke:" : "ALS 6/13/2023 18:57",
-		"initialize" : "ALS 6/13/2023 11:00" } }
+		"handleKeystroke:" : "ALS 6/13/2023 19:56",
+		"initialize" : "ALS 6/13/2023 19:30",
+		"setKeyboardFocus" : "ALS 6/13/2023 19:19" } }
