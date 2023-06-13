@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"cat",
+		"mice" ],
 	"name" : "CatAndMouseGameMouse",
 	"pools" : [
 		 ],

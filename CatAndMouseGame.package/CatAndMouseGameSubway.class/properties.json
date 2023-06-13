@@ -6,12 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"cat",
-		"mice",
-		"subways",
-		"size" ],
-	"name" : "CatAndMouseGameBoard",
+		 ],
+	"name" : "CatAndMouseGameSubway",
 	"pools" : [
 		 ],
-	"super" : "BorderedMorph",
+	"super" : "Object",
 	"type" : "normal" }
