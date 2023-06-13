@@ -1,0 +1,14 @@
+{
+	"category" : "CatAndMouseGame",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "CatAndMouseGameHole",
+	"pools" : [
+		 ],
+	"super" : "ImageMorph",
+	"type" : "normal" }
