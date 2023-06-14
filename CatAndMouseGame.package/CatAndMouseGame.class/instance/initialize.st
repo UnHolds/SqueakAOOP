@@ -36,5 +36,6 @@ initialize
 	h3 setPosition: 120@10.
 	h4 setPosition: 120@40.
 	
-
 	board addAllEntities.
+	
+	board startGame.

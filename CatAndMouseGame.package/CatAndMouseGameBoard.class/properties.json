@@ -9,7 +9,9 @@
 		"cat",
 		"mice",
 		"subways",
-		"size" ],
+		"size",
+		"score",
+		"startGame" ],
 	"name" : "CatAndMouseGameBoard",
 	"pools" : [
 		 ],

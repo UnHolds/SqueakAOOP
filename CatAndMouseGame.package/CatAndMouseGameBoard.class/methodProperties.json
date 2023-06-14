@@ -3,12 +3,19 @@
 		 },
 	"instance" : {
 		"addAllEntities" : "Ah 6/14/2023 16:14",
+		"checkIfMouseCaught" : "ALS 6/14/2023 17:09",
 		"getCat" : "Ah 6/13/2023 18:45",
 		"getMice" : "Ah 6/13/2023 18:45",
+		"getScore" : "ALS 6/14/2023 17:08",
 		"getSize" : "Ah 6/13/2023 18:41",
 		"handleKeystroke:" : "ALS 6/13/2023 19:53",
-		"initialize" : "Ah 6/13/2023 18:51",
+		"handleMouseCatch:" : "ALS 6/14/2023 17:32",
+		"increaseScore" : "ALS 6/14/2023 17:08",
+		"initialize" : "ALS 6/14/2023 17:13",
+		"mainLoop" : "ALS 6/14/2023 17:16",
 		"setCat:" : "ALS 6/14/2023 09:40",
 		"setMice:" : "ALS 6/14/2023 09:41",
 		"setSize:" : "Ah 6/13/2023 18:42",
-		"setSubways:" : "Ah 6/14/2023 11:01" } }
+		"setSubways:" : "Ah 6/14/2023 11:01",
+		"startGame" : "ALS 6/14/2023 17:15",
+		"step" : "ALS 6/14/2023 17:16" } }
