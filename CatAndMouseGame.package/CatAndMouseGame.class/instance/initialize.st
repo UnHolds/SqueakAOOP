@@ -6,14 +6,13 @@ initialize
 	
 	s1 := CatAndMouseGameSubway new.
 	h1 := CatAndMouseGameHole new.
-	
 	h2 := CatAndMouseGameHole new.
-	s1 setHoles: (Array with: h1 with: h2).
+	
 	
 	s2 := CatAndMouseGameSubway new.
 	h3 := CatAndMouseGameHole new.
 	h4 := CatAndMouseGameHole new.
-	s2 setHoles: (Array with: h3 with: h4).
+	
 	
 	cat := CatAndMouseGameCat new.
 	
@@ -21,6 +20,9 @@ initialize
 	board setSize: 600@300.
 	board setMice: (Array with: m1 with: m2).
 	board setCat: cat.
+	
+	s2 setHoles: (Array with: h3 with: h4).
+	s1 setHoles: (Array with: h1 with: h2).
 	board setSubways: (Array with: s1 with: s2).
 	
 	board openInWorld.
