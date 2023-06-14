@@ -24,6 +24,7 @@ initialize
 	board setSize: 600@300.
 	board setMice: (OrderedCollection with: m1 with: m2).
 	board setCat: cat.
+	board setRemainingTime: 20.
 	
 	s2 setHoles: (OrderedCollection with: h3 with: h4).
 	s1 setHoles: (OrderedCollection with: h1 with: h2).

@@ -6,15 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"cat",
-		"mice",
-		"subways",
-		"size",
-		"score",
-		"remainingTime",
-		"running" ],
-	"name" : "CatAndMouseGameBoard",
+		 ],
+	"name" : "CatAndMouseGameBlood",
 	"pools" : [
 		 ],
-	"super" : "BorderedMorph",
+	"super" : "CatAndMouseGameEntity",
 	"type" : "normal" }

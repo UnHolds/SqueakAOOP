@@ -1,3 +1,6 @@
 meta-actions
 handleKeystroke: anEvent
-    cat handleKeystroke: anEvent.
+	(running = True) ifTrue: [
+		cat handleKeystroke: anEvent
+	].
+	
