@@ -1,3 +1,8 @@
 as yet unclassified
 setMice: aMice
- 	mice := aMice.
+	aMice do: 
+	[
+		:mouse | mouse setParent: self
+	].
+	mice := aMice.
+ 	

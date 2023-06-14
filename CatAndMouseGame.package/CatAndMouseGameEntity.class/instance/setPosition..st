@@ -1,4 +1,10 @@
 as yet unclassified
 setPosition: aPosition
-	position := aPosition.
-	self position: position.
+	| parentBounds entityBounds |
+	
+	parentBounds := parent bounds.
+	entityBounds := self bounds corners.
+	
+	entityBounds do: [
+		:corner | (parent containsPoint: corner) ifTrue: [position := aPosition.]
+	].
