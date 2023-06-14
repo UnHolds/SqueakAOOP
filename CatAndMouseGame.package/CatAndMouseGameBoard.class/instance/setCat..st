@@ -1,4 +1,4 @@
-as yet unclassified
+getter setter
 setCat: aCat
 	aCat setParent: self.
 	cat := aCat.

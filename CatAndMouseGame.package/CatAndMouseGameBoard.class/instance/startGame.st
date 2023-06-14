@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 startGame
 	"starts the game"
 

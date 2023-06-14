@@ -1,4 +1,4 @@
-as yet unclassified
+getter setter
 setMice: aMice
 	aMice do: 
 	[

@@ -1,4 +1,4 @@
-as yet unclassified
+game
 checkIfMouseCaught
 	"check if mouse and cat morphs collide and mouse can be eaten"
 	| cat mice catCenterPoint |

@@ -1,3 +1,3 @@
-as yet unclassified
+getter setter
 getCat
 	^cat.

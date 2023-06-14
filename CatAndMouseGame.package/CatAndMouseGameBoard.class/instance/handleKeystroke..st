@@ -1,3 +1,3 @@
-as yet unclassified
+meta-actions
 handleKeystroke: anEvent
     cat handleKeystroke: anEvent.
