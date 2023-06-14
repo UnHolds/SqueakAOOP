@@ -18,11 +18,11 @@ initialize
 	
 	board  := CatAndMouseGameBoard new.
 	board setSize: 600@300.
-	board setMice: (Array with: m1 with: m2).
+	board setMice: (OrderedCollection with: m1 with: m2).
 	board setCat: cat.
 	
-	s2 setHoles: (Array with: h3 with: h4).
-	s1 setHoles: (Array with: h1 with: h2).
+	s2 setHoles: (OrderedCollection with: h3 with: h4).
+	s1 setHoles: (OrderedCollection with: h1 with: h2).
 	board setSubways: (Array with: s1 with: s2).
 	
 	board openInWorld.

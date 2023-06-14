@@ -4,7 +4,7 @@ handleMouseCatch: aMouse
 
 	self increaseScore.
 	
-	self getMice remove: [:each | each ~~ aMouse].
+	self getMice remove: aMouse.
 	
 	self removeMorph: aMouse. 
 
