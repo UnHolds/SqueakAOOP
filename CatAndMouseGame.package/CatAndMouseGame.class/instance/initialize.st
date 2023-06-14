@@ -1,8 +1,12 @@
 as yet unclassified
 initialize 
-	| cat m1 m2 s1 s2 h1 h2 h3 h4 |
+	| cat m1 a1 m2 s1 s2 h1 h2 h3 h4 |
 	m1 := CatAndMouseGameMouse new.
+	a1 := CatAndMouseGameMouseAlgorithmRandom new.
+	m1 setAlgorithm: a1.
+
 	m2 := CatAndMouseGameMouse new.
+	m2 setAlgorithm: a1. 
 	
 	s1 := CatAndMouseGameSubway new.
 	h1 := CatAndMouseGameHole new.
@@ -37,5 +41,6 @@ initialize
 	h4 setPosition: 120@40.
 	
 	board addAllEntities.
+	a1 setBoard: board. 	
 	
 	board startGame.

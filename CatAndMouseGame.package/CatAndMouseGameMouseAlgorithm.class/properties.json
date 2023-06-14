@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"mice",
-		"algorithm" ],
-	"name" : "CatAndMouseGameMouse",
+		"board" ],
+	"name" : "CatAndMouseGameMouseAlgorithm",
 	"pools" : [
 		 ],
-	"super" : "CatAndMouseGameEntity",
+	"super" : "Object",
 	"type" : "normal" }

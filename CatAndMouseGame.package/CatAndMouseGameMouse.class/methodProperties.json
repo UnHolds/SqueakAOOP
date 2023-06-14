@@ -2,4 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initialize" : "ALS 6/13/2023 10:56" } }
+		"initialize" : "ALS 6/13/2023 10:56",
+		"move" : "ALS 6/14/2023 17:47",
+		"setAlgorithm:" : "ALS 6/14/2023 17:46" } }

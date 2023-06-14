@@ -7,6 +7,3 @@ handleMouseCatch: aMouse
 	self getMice remove: aMouse.
 	
 	self removeMorph: aMouse. 
-
-	
-	Transcript show: (self getScore). 
