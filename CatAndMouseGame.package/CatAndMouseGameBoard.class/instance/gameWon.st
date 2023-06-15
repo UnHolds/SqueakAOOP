@@ -20,4 +20,3 @@ gameWon
 	m image: img.
 	m bounds: ((self position) extent: (size) + (2 * self borderWidth)).
 	self addMorph: m.
-	Transcript show: 'game won'. 
