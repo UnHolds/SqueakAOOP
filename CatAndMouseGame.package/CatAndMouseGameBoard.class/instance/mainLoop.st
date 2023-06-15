@@ -4,6 +4,7 @@ mainLoop
 	
 	self removeBloodStains.
 	self checkWinCondition. 
+	self checkLoseCondition.
 	self checkIfMouseCaught. 
 	
 	mice do: [
