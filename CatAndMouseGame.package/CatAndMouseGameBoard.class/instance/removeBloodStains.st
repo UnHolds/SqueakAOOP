@@ -1,4 +1,4 @@
-as yet unclassified
+game
 removeBloodStains
 	
 	self submorphs do: [

@@ -1,4 +1,4 @@
-as yet unclassified
+game
 checkWinCondition
 	"check if all mice are dead or time is up and mice are not in one subway"	
 	((mice size) = 0) ifTrue: [
