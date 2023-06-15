@@ -10,6 +10,6 @@ handleMouseCatch: aMouse
 	blood := CatAndMouseGameBlood new. 
 	blood position: (aMouse getPosition). 
 	self removeMorph: aMouse. 
-	
+	self setScoreText: score.
 	self addMorph: blood. 
 	
