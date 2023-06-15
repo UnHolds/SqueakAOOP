@@ -2,11 +2,11 @@ as yet unclassified
 initialize 
 	| cat m1 a1 m2 a2 s1 s2 h1 h2 h3 h4 |
 	m1 := CatAndMouseGameMouse new.
-	a1 := CatAndMouseGameMouseAlgorithmOrdered new.
+	a1 := CatAndMouseGameMouseAlgorithmDirect new.
 	m1 setAlgorithm: a1.
 
 	m2 := CatAndMouseGameMouse new.
-	a2 := CatAndMouseGameMouseAlgorithmOrdered new.
+	a2 := CatAndMouseGameMouseAlgorithmDirect new.
 	m2 setAlgorithm: a2. 
 	
 	s1 := CatAndMouseGameSubway new.
