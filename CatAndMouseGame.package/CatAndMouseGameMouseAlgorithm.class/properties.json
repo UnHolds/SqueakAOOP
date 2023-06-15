@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"board" ],
+		"board",
+		"speed" ],
 	"name" : "CatAndMouseGameMouseAlgorithm",
 	"pools" : [
 		 ],

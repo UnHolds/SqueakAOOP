@@ -1,12 +1,13 @@
 as yet unclassified
 initialize 
-	| cat m1 a1 m2 s1 s2 h1 h2 h3 h4 |
+	| cat m1 a1 m2 a2 s1 s2 h1 h2 h3 h4 |
 	m1 := CatAndMouseGameMouse new.
-	a1 := CatAndMouseGameMouseAlgorithmRandom new.
+	a1 := CatAndMouseGameMouseAlgorithmOrdered new.
 	m1 setAlgorithm: a1.
 
 	m2 := CatAndMouseGameMouse new.
-	m2 setAlgorithm: a1. 
+	a2 := CatAndMouseGameMouseAlgorithmOrdered new.
+	m2 setAlgorithm: a2. 
 	
 	s1 := CatAndMouseGameSubway new.
 	h1 := CatAndMouseGameHole new.
@@ -24,7 +25,7 @@ initialize
 	board setSize: 600@300.
 	board setMice: (OrderedCollection with: m1 with: m2).
 	board setCat: cat.
-	board setRemainingTime: 20.
+	board setRemainingTime: 50.
 	
 	s2 setHoles: (OrderedCollection with: h3 with: h4).
 	s1 setHoles: (OrderedCollection with: h1 with: h2).
@@ -42,6 +43,7 @@ initialize
 	h4 setPosition: 120@40.
 	
 	board addAllEntities.
-	a1 setBoard: board. 	
+	a1 setBoard: board.
+	a2 setBoard: board. 	
 	
 	board startGame.

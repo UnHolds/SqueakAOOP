@@ -6,8 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "CatAndMouseGameMouseAlgorithmRandom",
+		"nextHole" ],
+	"name" : "CatAndMouseGameMouseAlgorithmOrdered",
 	"pools" : [
 		 ],
 	"super" : "CatAndMouseGameMouseAlgorithm",
