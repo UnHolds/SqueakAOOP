@@ -1,5 +1,8 @@
 as yet unclassified
 move: aPosition
+
+	"this algorithm just moves directly from current position to random hole"
+
 	| newPosition |
 	
 	(nextHole isNil) ifTrue: [self calcNextHole ].
