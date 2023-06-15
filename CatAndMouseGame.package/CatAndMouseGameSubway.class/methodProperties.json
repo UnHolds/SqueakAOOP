@@ -2,10 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"enter:" : "Ah 6/15/2023 20:56",
+		"enter:" : "Ah 6/15/2023 21:23",
 		"exit:" : "Ah 6/15/2023 20:56",
 		"getHoles" : "Ah 6/13/2023 19:46",
 		"getMice" : "Ah 6/15/2023 20:57",
 		"initialize" : "Ah 6/15/2023 20:55",
+		"setCat:" : "Ah 6/15/2023 21:22",
 		"setHoles:" : "Ah 6/13/2023 19:33",
 		"setParent:" : "Ah 6/14/2023 11:33" } }

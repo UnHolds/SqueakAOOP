@@ -8,7 +8,9 @@
 	"instvars" : [
 		"holes",
 		"parent",
-		"mice" ],
+		"mice",
+		"catPosition",
+		"cat" ],
 	"name" : "CatAndMouseGameSubway",
 	"pools" : [
 		 ],
