@@ -12,7 +12,8 @@
 		"size",
 		"score",
 		"remainingTime",
-		"running" ],
+		"running",
+		"scoreMorph" ],
 	"name" : "CatAndMouseGameBoard",
 	"pools" : [
 		 ],
