@@ -2,7 +2,7 @@ game
 gameWon
 	"displays win message"
 	
-	| img  m  size2 mx |
+	| img  m  size2 mx scoreMorph2 font aText aString |
 	
 	mx := size x max: size y. 
 	
@@ -20,3 +20,12 @@ gameWon
 	m image: img.
 	m bounds: ((self position) extent: (size) + (2 * self borderWidth)).
 	self addMorph: m.
+	
+	scoreMorph2 := TextMorph new.
+	self addMorph: scoreMorph2.
+	font  :=  (TextFontReference toFont:  (TTCFont familyName: 'BitstreamVeraSans' pointSize: 30 emphasis: 0)).
+	aString := score printString.
+	aText := aString asText addAttribute: font; addAttribute: (TextColor color: Color black).
+	scoreMorph2 contents: aText. 
+	scoreMorph2 position: (self position + (size / 2)).
+	
