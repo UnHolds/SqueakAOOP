@@ -1,11 +1,16 @@
 as yet unclassified
 initialize 
+
+	| size remainingTime |
+	
+	size := 1200@800.
+	remainingTime := 50.
 	
 	board  := CatAndMouseGameBoard new.
-	board setSize: 600@300.
+	board setSize: size.
 	board setMice: (self createMice: board).
 	
-	board setRemainingTime: 50.
+	board setRemainingTime: remainingTime.
 	board setCat: (self createCat).
 	board setSubways: (self createSubways: board).
 	board openInWorld.
