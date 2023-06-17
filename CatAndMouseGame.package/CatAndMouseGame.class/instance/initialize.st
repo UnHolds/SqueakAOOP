@@ -1,13 +1,7 @@
 as yet unclassified
 initialize 
-	| cat m1 a1 m2 a2 s1 s2 h1 h2 h3 h4 |
-	m1 := CatAndMouseGameMouse new.
-	a1 := CatAndMouseGameMouseAlgorithmDirect new.
-	m1 setAlgorithm: a1.
-
-	m2 := CatAndMouseGameMouse new.
-	a2 := CatAndMouseGameMouseAlgorithmDirect new.
-	m2 setAlgorithm: a2. 
+	| cat s1 s2 h1 h2 h3 h4 |
+	
 	
 	s1 := CatAndMouseGameSubway new.
 	h1 := CatAndMouseGameHole new.
@@ -23,7 +17,7 @@ initialize
 	
 	board  := CatAndMouseGameBoard new.
 	board setSize: 600@300.
-	board setMice: (OrderedCollection with: m1 with: m2).
+	board setMice: (self createMice: board).
 	board setCat: cat.
 	board setRemainingTime: 50.
 	
@@ -34,8 +28,6 @@ initialize
 	board openInWorld.
 	
 	cat setPosition: 10@40.
-	m1 setPosition: 10@10.
-	m2 setPosition: 40@10.
 	
 	h1 setPosition: 80@10.
 	h2 setPosition: 80@40.
@@ -43,7 +35,6 @@ initialize
 	h4 setPosition: 120@40.
 	
 	board addAllEntities.
-	a1 setBoard: board.
-	a2 setBoard: board. 	
+
 	
 	board startGame.
