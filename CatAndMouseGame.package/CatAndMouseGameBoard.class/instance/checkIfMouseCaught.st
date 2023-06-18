@@ -8,7 +8,9 @@ checkIfMouseCaught
 	catCenterPoint := cat center. 
 	
 	mice do: [
-		:mouse | (mouse containsPoint: catCenterPoint) ifTrue: [
+		:mouse | 
+		((mouse containsPoint: catCenterPoint) and: ((mouse isVisable) = True))
+		ifTrue: [
 			self handleMouseCatch: mouse
 		]
 	].

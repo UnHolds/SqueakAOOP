@@ -7,7 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"mice",
-		"algorithm" ],
+		"algorithm",
+		"visable" ],
 	"name" : "CatAndMouseGameMouse",
 	"pools" : [
 		 ],

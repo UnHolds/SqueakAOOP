@@ -4,5 +4,6 @@ exit: aMouse
 	| exitHole |
 	exitHole := self getBestExitHole.
 	aMouse setPosition: (exitHole getPosition).
+	aMouse setVisable: True.
 	parent addMorph: aMouse.
 	mice remove: aMouse.

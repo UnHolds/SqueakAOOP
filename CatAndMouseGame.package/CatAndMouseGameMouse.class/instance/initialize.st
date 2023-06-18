@@ -6,5 +6,6 @@ initialize
       img := ImageReadWriter formFromFileNamed: 'mouse.png'.
       img := img scaledToSize: 50@50.
       self image: img.
+	visable := True.
 
 	

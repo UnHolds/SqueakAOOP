@@ -3,6 +3,8 @@
 		 },
 	"instance" : {
 		"getAlgorithm" : "Ah 6/18/2023 18:21",
-		"initialize" : "ALS 6/13/2023 10:56",
+		"initialize" : "Ah 6/18/2023 19:09",
+		"isVisable" : "Ah 6/18/2023 19:08",
 		"move" : "Ah 6/18/2023 11:15",
-		"setAlgorithm:" : "ALS 6/14/2023 17:46" } }
+		"setAlgorithm:" : "ALS 6/14/2023 17:46",
+		"setVisable:" : "Ah 6/18/2023 19:09" } }
