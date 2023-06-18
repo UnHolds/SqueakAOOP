@@ -1,0 +1,14 @@
+{
+	"category" : "CatAndMouseGame",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "CatAndMouseGameAlgorithmAvoid",
+	"pools" : [
+		 ],
+	"super" : "CatAndMouseGameMouseAlgorithm",
+	"type" : "normal" }
