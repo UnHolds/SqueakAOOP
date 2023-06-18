@@ -12,9 +12,9 @@ createSubways: aBoard cat: cat
 	s1 setCat: cat.
 	
 	h3 := CatAndMouseGameHole new.
-	h3 setPosition: 120@10.
+	h3 setPosition: 320@80.
 	h4 := CatAndMouseGameHole new.
-	h4 setPosition: 120@40.
+	h4 setPosition: 320@120.
 	s2 := CatAndMouseGameSubway new.
 	s2 setHoles: (OrderedCollection with: h3 with: h4).
 	s2 setCat: cat.

@@ -6,12 +6,12 @@ checkLoseCondition
 	subways do: [
 		:subway |
 		containsAll := True.
-		(subway getMice) do:[
+		(mice) do:[
 			:mouse |
-			(mice includes: mouse)
+			((subway getMice) includes: mouse)
 			ifFalse: [containsAll := False].
 		].
-		((subway getMice) isEmpty)
+		(mice isEmpty)
 		ifTrue: [containsAll := False].
 		
 		(containsAll = True)
