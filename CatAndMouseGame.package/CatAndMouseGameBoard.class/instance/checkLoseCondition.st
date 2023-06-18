@@ -16,6 +16,7 @@ checkLoseCondition
 		
 		(containsAll = True)
 		ifTrue: [
+			running := False.
 			self gameLost.
 			^''.
 		].
