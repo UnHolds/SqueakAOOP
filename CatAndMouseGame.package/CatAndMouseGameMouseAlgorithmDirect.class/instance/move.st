@@ -5,14 +5,24 @@ move
 
 	| newPosition subway |
 	
+	(residingSubway isNil)
+	ifFalse: [
+		^(super move).
+	].
+	
 	(nextHole isNil) ifTrue: [self calcNextHole ].
 
 	newPosition := self getNewPosition: (mouse getPosition) destination: (nextHole getPosition).
 	
-	(nextHole containsPoint: (mouse center))
+	Transcript show: '-'.
+	
+	(nextHole containsPoint: (mouse getPosition))
 	ifTrue: [
 		subway := self getSubwayViaHole: nextHole.
 		subway enter: mouse.
+		residingSubway := subway.
+		subwayRemainingCyles := 10 atRandom.
+		self calcNextHole.
 	].
 	 
 	^newPosition. 

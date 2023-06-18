@@ -6,12 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"board",
-		"speed",
-		"mouse",
-		"residingSubway",
-		"subwayRemainingCyles" ],
-	"name" : "CatAndMouseGameMouseAlgorithm",
+		 ],
+	"name" : "CatAndMouseGameNil",
 	"pools" : [
 		 ],
 	"super" : "Object",
