@@ -6,6 +6,10 @@ createSubways: aBoard cat: cat
 	ss := OrderedCollection new.
 	ha := OrderedCollection new.
 	
+	(countSubways < 2)
+	ifTrue: [countSubways := 2].
+	
+	
 	1 to: countSubways do: [
 		:i |
 		s := CatAndMouseGameSubway new.

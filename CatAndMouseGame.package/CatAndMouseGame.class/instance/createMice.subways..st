@@ -1,5 +1,5 @@
 as yet unclassified
-createMice: aBoard
+createMice: aBoard subways: subways
 	| mice m a|
 	
 	mice := OrderedCollection new.
@@ -26,5 +26,5 @@ createMice: aBoard
 	].
 	
 	
-	self placeEntitiesRandom: mice.
+	self placeMice: mice subways: subways.
 	^mice.

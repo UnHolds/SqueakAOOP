@@ -9,10 +9,11 @@ addAllEntities
 				self addMorph: hole
 			]
 		].
-	
+	"
 	mice do: [
 		:mouse | 
 		self addMorph: mouse
 	].
+	"
 	self addMorph: cat.
 	

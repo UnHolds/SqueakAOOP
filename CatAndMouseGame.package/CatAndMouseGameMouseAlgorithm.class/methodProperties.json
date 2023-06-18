@@ -3,10 +3,12 @@
 		 },
 	"instance" : {
 		"getNewPosition:destination:" : "Ah 6/15/2023 22:16",
+		"getResidingSubway" : "Ah 6/18/2023 18:19",
 		"getSubwayViaHole:" : "Ah 6/18/2023 11:46",
 		"getVectorLength:" : "Ah 6/15/2023 22:02",
 		"initialize" : "Ah 6/18/2023 17:53",
 		"move" : "Ah 6/18/2023 17:48",
 		"setBoard:" : "ALS 6/14/2023 17:51",
 		"setMouse:" : "Ah 6/18/2023 11:17",
+		"setResidingSubway:" : "Ah 6/18/2023 18:20",
 		"setSpeed:" : "Ah 6/15/2023 21:32" } }
