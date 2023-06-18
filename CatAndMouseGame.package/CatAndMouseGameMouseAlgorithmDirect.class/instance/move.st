@@ -14,8 +14,6 @@ move
 
 	newPosition := self getNewPosition: (mouse getPosition) destination: (nextHole getPosition).
 	
-	Transcript show: '-'.
-	
 	(nextHole containsPoint: (mouse getPosition))
 	ifTrue: [
 		subway := self getSubwayViaHole: nextHole.

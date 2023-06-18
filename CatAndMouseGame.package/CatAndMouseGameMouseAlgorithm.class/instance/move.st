@@ -9,7 +9,6 @@ move
 		].
 		subwayRemainingCyles := subwayRemainingCyles - 1.
 	].
-	Transcript show: '#'.
 	^(mouse getPosition).
 	
 
