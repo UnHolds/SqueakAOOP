@@ -5,9 +5,9 @@ initialize
 	
 	size := 1200@670.
 	remainingTime := 120.
-	countSubways := 2. "needs to be at least 2"
-	algDirectMiceCount := 0. "Count of mice with direct algorithm"
-	algAvoidMiceCount := 1. "Count of mice with avoid algorithm"
+	countSubways := 4. "needs to be at least 2"
+	algDirectMiceCount := 3. "Count of mice with direct algorithm"
+	algAvoidMiceCount := 3. "Count of mice with avoid algorithm"
 	
 	board  := CatAndMouseGameBoard new.
 	board setSize: size.

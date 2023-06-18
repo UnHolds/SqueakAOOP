@@ -1,4 +1,4 @@
 as yet unclassified
 setResidingSubway: aSubway
-	subwayRemainingCyles := 10 atRandom.
+	subwayRemainingCyles := self getResidingTime.
 	residingSubway := aSubway.
