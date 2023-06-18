@@ -17,6 +17,12 @@ createSubways: aBoard cat: cat
 			hs add: h.
 			ha add: h.
 		].
+		
+		(i == 1)
+		ifTrue: [
+			s setGoalSub.
+		].
+	
 		s setHoles: hs.
 		ss add: s.
 	].

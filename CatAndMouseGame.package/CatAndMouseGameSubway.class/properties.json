@@ -10,7 +10,8 @@
 		"parent",
 		"mice",
 		"catPosition",
-		"cat" ],
+		"cat",
+		"goalSub" ],
 	"name" : "CatAndMouseGameSubway",
 	"pools" : [
 		 ],

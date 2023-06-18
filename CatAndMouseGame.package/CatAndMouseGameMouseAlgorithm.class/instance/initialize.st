@@ -1,3 +1,3 @@
 as yet unclassified
 initialize 
-	speed := 15.
+	speed := 30.

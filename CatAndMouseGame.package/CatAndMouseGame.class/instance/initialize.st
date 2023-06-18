@@ -4,8 +4,8 @@ initialize
 	| remainingTime cat|
 	
 	size := 1200@670.
-	remainingTime := 50.
-	countSubways := 2.
+	remainingTime := 120.
+	countSubways := 4.
 	algDirectMiceCount := 0. "Count of mice with direct algorithm"
 	algAvoidMiceCount := 1. "Count of mice with avoid algorithm"
 	
