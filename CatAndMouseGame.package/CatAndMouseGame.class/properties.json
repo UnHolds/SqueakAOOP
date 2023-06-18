@@ -8,6 +8,7 @@
 	"instvars" : [
 		"board",
 		"size",
+		"countSubways",
 		"algDirectMiceCount",
 		"algAvoidMiceCount" ],
 	"name" : "CatAndMouseGame",
