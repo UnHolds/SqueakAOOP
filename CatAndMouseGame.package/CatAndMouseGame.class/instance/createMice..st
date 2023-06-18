@@ -14,6 +14,16 @@ createMice: aBoard
 		a setMouse: m.
 		mice add: m.
 	].
+
+	1 to: algAvoidMiceCount do: [
+		:i |
+		m := CatAndMouseGameMouse new.
+		a := CatAndMouseGameMouseAlgorithmAvoid new.
+		m setAlgorithm: a.
+		a setBoard: board.
+		a setMouse: m.
+		mice add: m.
+	].
 	
 	
 	self placeEntitiesRandom: mice.

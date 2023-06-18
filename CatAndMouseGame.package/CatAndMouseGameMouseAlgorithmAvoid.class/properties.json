@@ -6,8 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "CatAndMouseGameAlgorithmAvoid",
+		"nextHole",
+		"avoidRadius" ],
+	"name" : "CatAndMouseGameMouseAlgorithmAvoid",
 	"pools" : [
 		 ],
 	"super" : "CatAndMouseGameMouseAlgorithm",

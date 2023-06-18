@@ -8,7 +8,8 @@
 	"instvars" : [
 		"board",
 		"size",
-		"algDirectMiceCount" ],
+		"algDirectMiceCount",
+		"algAvoidMiceCount" ],
 	"name" : "CatAndMouseGame",
 	"pools" : [
 		 ],
