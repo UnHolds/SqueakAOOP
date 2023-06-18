@@ -1,3 +1,3 @@
 as yet unclassified
 initialize 
-	speed := 30.
+	self setSpeed: (4 + (2 atRandom)).

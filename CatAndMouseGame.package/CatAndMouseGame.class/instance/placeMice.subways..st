@@ -9,7 +9,6 @@ placeMice: mice subways: subways
 		placed := False.
 		shuffleSub do: [
 			:subway |
-			Transcript show: '#'.
 			((subway isGoalSub = False) and: (placed = False))
 			ifTrue: [
 				placed := True.

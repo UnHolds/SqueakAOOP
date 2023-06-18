@@ -19,7 +19,7 @@ move
 		subway := self getSubwayViaHole: nextHole.
 		subway enter: mouse.
 		residingSubway := subway.
-		subwayRemainingCyles := 10 atRandom.
+		subwayRemainingCyles := self getResidingTime.
 		self calcNextHole.
 	].
 	 
