@@ -3,4 +3,4 @@ enter: aMouse
 	"mouse entered subway"
 	mice add: aMouse.
 	catPosition := cat getPosition.
-	
+	parent removeMorph: aMouse.

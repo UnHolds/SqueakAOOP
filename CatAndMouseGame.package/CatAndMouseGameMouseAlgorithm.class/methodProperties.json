@@ -3,6 +3,7 @@
 		 },
 	"instance" : {
 		"getNewPosition:destination:" : "Ah 6/15/2023 22:16",
+		"getSubwayViaHole:" : "Ah 6/18/2023 11:46",
 		"getVectorLength:" : "Ah 6/15/2023 22:02",
 		"initialize" : "Ah 6/15/2023 22:14",
 		"move" : "Ah 6/18/2023 11:14",

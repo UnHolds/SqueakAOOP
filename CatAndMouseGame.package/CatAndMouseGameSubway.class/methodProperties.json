@@ -2,7 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"enter:" : "Ah 6/15/2023 21:23",
+		"containsHole:" : "Ah 6/18/2023 11:38",
+		"enter:" : "Ah 6/18/2023 11:44",
 		"exit:" : "Ah 6/15/2023 20:56",
 		"getHoles" : "Ah 6/13/2023 19:46",
 		"getMice" : "Ah 6/15/2023 20:57",

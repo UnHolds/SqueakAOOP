@@ -1,7 +1,7 @@
 as yet unclassified
 initialize 
 
-	| size remainingTime |
+	| size remainingTime cat|
 	
 	size := 1200@670.
 	remainingTime := 50.
@@ -11,8 +11,9 @@ initialize
 	board setMice: (self createMice: board).
 	
 	board setRemainingTime: remainingTime.
-	board setCat: (self createCat).
-	board setSubways: (self createSubways: board).
+	cat := self createCat.
+	board setCat: cat.
+	board setSubways: (self createSubways: board cat: cat).
 	board openInWorld.
 	
 	board addAllEntities.

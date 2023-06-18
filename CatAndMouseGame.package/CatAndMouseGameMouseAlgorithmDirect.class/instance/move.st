@@ -3,7 +3,7 @@ move
 
 	"this algorithm just moves directly from current position to random hole"
 
-	| newPosition |
+	| newPosition subway |
 	
 	(nextHole isNil) ifTrue: [self calcNextHole ].
 
@@ -11,7 +11,8 @@ move
 	
 	(nextHole containsPoint: (mouse center))
 	ifTrue: [
-			
+		subway := self getSubwayViaHole: nextHole.
+		subway enter: mouse.
 	].
 	 
 	^newPosition. 
