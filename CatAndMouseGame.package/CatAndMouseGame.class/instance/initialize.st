@@ -5,6 +5,7 @@ initialize
 	
 	size := 1200@670.
 	remainingTime := 50.
+	algDirectMiceCount := 3. "Count of mice with direct algorithm"
 	
 	board  := CatAndMouseGameBoard new.
 	board setSize: size.

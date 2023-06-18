@@ -1,19 +1,20 @@
 as yet unclassified
 createMice: aBoard
-	| mice m1 a1 m2 a2|
+	| mice m a|
 	
-	m1 := CatAndMouseGameMouse new.
-	a1 := CatAndMouseGameMouseAlgorithmDirect new.
-	m1 setAlgorithm: a1.
-	a1 setBoard: board.
-	a1 setMouse: m1.
-
-	m2 := CatAndMouseGameMouse new.
-	a2 := CatAndMouseGameMouseAlgorithmDirect new.
-	m2 setAlgorithm: a2. 
-	a2 setBoard: board. 	
-	a2 setMouse: m2.
+	mice := OrderedCollection new.
 	
-	mice := (OrderedCollection with: m1 with: m2).
+	"Create direct algoirithm Mice"
+	1 to: algDirectMiceCount do: [
+		:i |
+		m := CatAndMouseGameMouse new.
+		a := CatAndMouseGameMouseAlgorithmDirect new.
+		m setAlgorithm: a.
+		a setBoard: board.
+		a setMouse: m.
+		mice add: m.
+	].
+	
+	
 	self placeEntitiesRandom: mice.
 	^mice.
