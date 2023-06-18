@@ -1,7 +1,7 @@
 as yet unclassified
 initialize 
 
-	| size remainingTime cat|
+	| remainingTime cat|
 	
 	size := 1200@670.
 	remainingTime := 50.
