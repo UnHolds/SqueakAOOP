@@ -3,7 +3,7 @@ initialize
 
 	| size remainingTime |
 	
-	size := 1200@800.
+	size := 1200@670.
 	remainingTime := 50.
 	
 	board  := CatAndMouseGameBoard new.
