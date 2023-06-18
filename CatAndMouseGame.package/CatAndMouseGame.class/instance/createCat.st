@@ -4,5 +4,5 @@ createCat
 	| cat |
 	
 	cat := CatAndMouseGameCat new.
-	cat setPosition: 10@40.
+	cat setPosition: size/2.
 	^cat.
